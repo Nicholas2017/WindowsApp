@@ -100,5 +100,6 @@ namespace WindowsApp
             splitContainer1.Panel2.Controls.Add(trade);
         }
         #endregion
+
     }
 }
