@@ -3,14 +3,14 @@
     partial class MainWindow
     {
         /// <summary>
-        /// 必需的设计器变量。
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// 清理所有正在使用的资源。
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,130 +20,216 @@
             base.Dispose(disposing);
         }
 
-        #region Windows 窗体设计器生成的代码
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// 设计器支持所需的方法 - 不要修改
-        /// 使用代码编辑器修改此方法的内容。
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.panel5.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
+            this.panel_M = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox_Min = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Logo = new System.Windows.Forms.PictureBox();
+            this.panel_B = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.panel_M.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Min)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).BeginInit();
+            this.panel_B.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel5
+            // panel_M
             // 
-            this.panel5.Controls.Add(this.groupBox2);
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(180, 450);
-            this.panel5.TabIndex = 4;
+            this.panel_M.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel_M.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_M.Controls.Add(this.label1);
+            this.panel_M.Controls.Add(this.button1);
+            this.panel_M.Controls.Add(this.pictureBox_Min);
+            this.panel_M.Controls.Add(this.pictureBox_Logo);
+            this.panel_M.Location = new System.Drawing.Point(0, 0);
+            this.panel_M.Name = "panel_M";
+            this.panel_M.Size = new System.Drawing.Size(1200, 60);
+            this.panel_M.TabIndex = 0;
+            this.panel_M.DoubleClick += new System.EventHandler(this.panel1_DoubleClick);
+            this.panel_M.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.panel_M.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.panel_M.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
-            // panel1
+            // label1
             // 
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(820, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(180, 450);
-            this.panel1.TabIndex = 5;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微软雅黑 Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
+            this.label1.Location = new System.Drawing.Point(394, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(524, 23);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "江苏，你好\t账户类型：模拟\t\t账户资金：654321\t\t冻结金额：123456";
             // 
-            // groupBox1
+            // button1
             // 
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(180, 450);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Window;
+            this.button1.Location = new System.Drawing.Point(1022, 13);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 35);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "锁定";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // groupBox2
+            // pictureBox_Min
             // 
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(180, 450);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.pictureBox_Min.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_Min.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pictureBox_Min.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox_Min.Location = new System.Drawing.Point(1138, 0);
+            this.pictureBox_Min.Name = "pictureBox_Min";
+            this.pictureBox_Min.Size = new System.Drawing.Size(60, 58);
+            this.pictureBox_Min.TabIndex = 1;
+            this.pictureBox_Min.TabStop = false;
+            this.pictureBox_Min.Click += new System.EventHandler(this.pictureBox_Min_Click);
             // 
-            // panel2
+            // pictureBox_Logo
             // 
-            this.panel2.Controls.Add(this.groupBox3);
-            this.panel2.Location = new System.Drawing.Point(180, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(640, 450);
-            this.panel2.TabIndex = 6;
+            this.pictureBox_Logo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox_Logo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pictureBox_Logo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox_Logo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Logo.Image")));
+            this.pictureBox_Logo.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox_Logo.Name = "pictureBox_Logo";
+            this.pictureBox_Logo.Size = new System.Drawing.Size(180, 60);
+            this.pictureBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Logo.TabIndex = 0;
+            this.pictureBox_Logo.TabStop = false;
             // 
-            // panel3
+            // panel_B
             // 
-            this.panel3.Controls.Add(this.groupBox4);
-            this.panel3.Location = new System.Drawing.Point(180, 450);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(820, 250);
-            this.panel3.TabIndex = 7;
+            this.panel_B.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel_B.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_B.Controls.Add(this.label2);
+            this.panel_B.Controls.Add(this.linkLabel2);
+            this.panel_B.Controls.Add(this.linkLabel1);
+            this.panel_B.Location = new System.Drawing.Point(0, 700);
+            this.panel_B.Name = "panel_B";
+            this.panel_B.Size = new System.Drawing.Size(1200, 60);
+            this.panel_B.TabIndex = 1;
             // 
-            // groupBox3
+            // label2
             // 
-            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(0, 0);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(640, 450);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("微软雅黑 Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Window;
+            this.label2.Location = new System.Drawing.Point(528, 17);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(447, 23);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "时间：16:33 \t\t用户ID：123123213\t\t姓名：江苏\t\t下单状态:●";
             // 
-            // groupBox4
+            // linkLabel2
             // 
-            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox4.Location = new System.Drawing.Point(0, 0);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(820, 250);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "groupBox4";
+            this.linkLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("微软雅黑 Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.linkLabel2.LinkColor = System.Drawing.Color.White;
+            this.linkLabel2.Location = new System.Drawing.Point(206, 15);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(57, 23);
+            this.linkLabel2.TabIndex = 1;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "交易●";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("微软雅黑 Light", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(38, 15);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(57, 23);
+            this.linkLabel1.TabIndex = 0;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "行情●";
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 60);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            this.splitContainer1.Size = new System.Drawing.Size(1200, 640);
+            this.splitContainer1.SplitterDistance = 320;
+            this.splitContainer1.TabIndex = 2;
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 653);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel5);
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(1200, 760);
+            this.Controls.Add(this.splitContainer1);
+            this.Controls.Add(this.panel_M);
+            this.Controls.Add(this.panel_B);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainWindow";
-            this.Text = "Form1";
+            this.Text = "MainWindow";
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.SizeChanged += new System.EventHandler(this.MainWindow_SizeChanged);
-            this.panel5.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            this.panel_M.ResumeLayout(false);
+            this.panel_M.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Min)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).EndInit();
+            this.panel_B.ResumeLayout(false);
+            this.panel_B.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.GroupBox groupBox4;
+
+        private System.Windows.Forms.Panel panel_M;
+        private System.Windows.Forms.Panel panel_B;
+        private System.Windows.Forms.PictureBox pictureBox_Min;
+        private System.Windows.Forms.PictureBox pictureBox_Logo;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.SplitContainer splitContainer1;
     }
 }
-
