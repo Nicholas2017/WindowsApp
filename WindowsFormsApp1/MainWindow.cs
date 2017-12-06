@@ -20,7 +20,7 @@ namespace WindowsApp
 
         #endregion
 
-        public MainWindow()
+        public MainWindow() 
         {
             InitializeComponent();  
         }
