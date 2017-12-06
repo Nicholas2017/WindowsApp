@@ -76,30 +76,33 @@ namespace WindowsApp
         #endregion
 
         #region 防止闪屏
-        protected override CreateParams CreateParams
-        {
-            get
-            {
-                CreateParams cp = base.CreateParams;
-                cp.ExStyle |= 0x02000000;
-                return cp;
-            }
-        }
+        //protected override CreateParams CreateParams
+        //{
+        //    get
+        //    {
+        //        CreateParams cp = base.CreateParams;
+        //        cp.ExStyle |= 0x02000000;
+        //        return cp;
+        //    }
+        //}
         #endregion
 
         #region 主窗体 load事件 加在子控件 商品&交易 
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            Commodity commodity = new Commodity();
+            this.BackColor = Color.FromArgb(50,50,50);
+
+            Commodity commodity = new Commodity(this.BackColor);
+            commodity.BackColor = Color.Transparent;
             commodity.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             splitContainer1.Panel1.Controls.Add(commodity);
 
-            Trade trade = new Trade();
-            trade.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            Trade trade = new Trade(this.BackColor);
+            trade.BackColor = Color.Transparent;
+            trade.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;  
             splitContainer1.Panel2.Controls.Add(trade);
         }
         #endregion
-
     }
 }

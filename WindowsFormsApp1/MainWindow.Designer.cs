@@ -51,6 +51,7 @@
             // 
             this.panel_M.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel_M.BackColor = System.Drawing.Color.Transparent;
             this.panel_M.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_M.Controls.Add(this.label1);
             this.panel_M.Controls.Add(this.button1);
@@ -98,7 +99,7 @@
             // 
             this.pictureBox_Min.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_Min.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pictureBox_Min.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox_Min.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox_Min.Location = new System.Drawing.Point(1138, 0);
             this.pictureBox_Min.Name = "pictureBox_Min";
@@ -111,12 +112,11 @@
             // 
             this.pictureBox_Logo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox_Logo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox_Logo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox_Logo.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox_Logo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Logo.Image")));
             this.pictureBox_Logo.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_Logo.Name = "pictureBox_Logo";
-            this.pictureBox_Logo.Size = new System.Drawing.Size(180, 60);
+            this.pictureBox_Logo.Size = new System.Drawing.Size(190, 60);
             this.pictureBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_Logo.TabIndex = 0;
             this.pictureBox_Logo.TabStop = false;
@@ -125,6 +125,7 @@
             // 
             this.panel_B.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel_B.BackColor = System.Drawing.Color.Transparent;
             this.panel_B.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_B.Controls.Add(this.label2);
             this.panel_B.Controls.Add(this.linkLabel2);
@@ -180,10 +181,19 @@
             this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.splitContainer1.BackColor = System.Drawing.Color.Transparent;
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Location = new System.Drawing.Point(0, 60);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.BackColor = System.Drawing.Color.Transparent;
             this.splitContainer1.Size = new System.Drawing.Size(1200, 640);
             this.splitContainer1.SplitterDistance = 320;
             this.splitContainer1.TabIndex = 2;
