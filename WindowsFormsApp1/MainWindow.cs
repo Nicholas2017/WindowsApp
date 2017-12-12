@@ -1,23 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static WindowsApp.WindosStatusEnum;
 
 namespace WindowsApp
 {
     public partial class MainWindow : Form
     {
         #region 全局变量定义区
-        AutoSizeFormClass asc = new AutoSizeFormClass();
-        Point mouseOff;//鼠标移动位置变量
-        bool leftFlag;//标记是否为左键
+        Point mouseOff;                                     //鼠标移动位置变量
+        bool leftFlag;                                      //标记是否为左键
 
+        Commodity commodity;                                //商品控件
+        Trade trade;                                        //交易控件
+        Color MyBackColor = Color.FromArgb(30, 30, 30);     //主色调
         #endregion
 
         public MainWindow() 
@@ -63,6 +58,10 @@ namespace WindowsApp
         {
             MaxAndMinAndCloase.MinMaxCloseClickMeans(this, Operatetype.min);
         }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MaxAndMinAndCloase.MinMaxCloseClickMeans(this, Operatetype.close);
+        }
         #endregion
 
         #region 自适应调用事件
@@ -87,21 +86,40 @@ namespace WindowsApp
         //}
         #endregion
 
-        #region 主窗体 load事件 加在子控件 商品&交易 
-
+        #region 主窗体 load事件 加在子控件 商品&交易 设置背景主色调
+                
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(50,50,50);
+            this.BackColor = MyBackColor;
 
-            Commodity commodity = new Commodity(this.BackColor);
-            commodity.BackColor = Color.Transparent;
-            commodity.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            splitContainer1.Panel1.Controls.Add(commodity);
+            commodity = new Commodity(this.BackColor);
+            commodity.Dock = DockStyle.Fill;
+            this.splitContainer1.Panel1.Controls.Add(commodity);
 
-            Trade trade = new Trade(this.BackColor);
-            trade.BackColor = Color.Transparent;
-            trade.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;  
-            splitContainer1.Panel2.Controls.Add(trade);
+            trade = new Trade(this.BackColor);
+            trade.Dock = DockStyle.Fill;
+            this.splitContainer1.Panel2.Controls.Add(trade);
+        }
+        #endregion
+
+        #region 锁定按钮事件
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            this.Invoke(new EventHandler(delegate {
+            if (button1.Text.Equals("锁定"))
+                {
+                    this.commodity.Enabled = false;
+                    this.trade.Enabled = false;
+                    button1.Text = "解锁";
+                }
+                else
+                {
+                    this.commodity.Enabled = true;
+                    this.trade.Enabled = true;
+                    button1.Text = "锁定";
+                }
+            }));
         }
         #endregion
     }

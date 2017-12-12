@@ -4,24 +4,22 @@ using System.Windows.Forms;
 
 namespace WindowsApp
 {
-    public partial class Trade : UserControl
+    public partial class CommodityDetaile : UserControl
     {
         private Color color;
-        public Trade()
+        public CommodityDetaile()
         {
             InitializeComponent();
         }
-        public Trade( Color color)
+        public CommodityDetaile( Color color)
         {
             this.color = color;
             InitializeComponent();
         }
-        private void Trade_Load(object sender, EventArgs e)
+
+        private void CommodityDetaile_Load(object sender, EventArgs e)
         {
             this.BackColor = Color.Transparent;
-            trackBar1.BackColor = this.color;
-            trackBar2.BackColor = this.color;
-            dataGridView1.BackgroundColor = this.color;
         }
     }
 }

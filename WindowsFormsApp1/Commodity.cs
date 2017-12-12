@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsApp
 {
+    public delegate void CommodityChgDelegate();
     public partial class Commodity : UserControl
     {
         private Color color;
@@ -22,9 +17,33 @@ namespace WindowsApp
             this.color = color;
             InitializeComponent();
         }
+
+        CommodityDetaile commodityDetaile = null;
+        public void chgSpiChg()
+        {
+            Console.WriteLine(splitContainer1.Panel2.Controls.Count);
+            if (splitContainer1.Panel2.Controls.Count < 2)
+            {
+                commodityDetaile = new CommodityDetaile(this.color);
+                commodityDetaile.Dock = DockStyle.Fill;
+                splitContainer1.Panel2.Controls.Add(commodityDetaile);
+            }
+            commodityDetaile.BringToFront();
+        }
+
+
+        CommodityList commodityList;
         private void Commodity_Load(object sender, EventArgs e)
         {
-            dataGridView1.BackgroundColor = this.color;
+            commodityList = new CommodityList(this.color,new CommodityChgDelegate(this.chgSpiChg));
+            commodityList.Dock = DockStyle.Fill;
+            this.BackColor = Color.Transparent;
+            splitContainer1.Panel2.Controls.Add(commodityList);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            commodityList.BringToFront();
         }
     }
 }
