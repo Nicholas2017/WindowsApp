@@ -1,4 +1,4 @@
-﻿namespace WindowsApp
+﻿namespace DefineData
 {
     #region 窗体状态
     public enum Operatetype
@@ -16,5 +16,6 @@
         detaile
     }
     #endregion
+
 
 }

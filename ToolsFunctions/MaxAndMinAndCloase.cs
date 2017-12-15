@@ -1,8 +1,9 @@
-﻿using System.Windows.Forms;
+﻿using DefineData;
+using System.Windows.Forms;
 
-namespace WindowsApp
+namespace ToolsFunctions
 {
-    class MaxAndMinAndCloase
+    public class MaxAndMinAndCloase
     {
         public static void MinMaxCloseClickMeans(Form Frm_Tem, Operatetype op)
         {

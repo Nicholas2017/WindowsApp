@@ -1,10 +1,11 @@
-﻿using System;
+﻿using DefineData;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace WindowsApp
 {
-    public delegate void CommodityChgDelegate();
+
     public partial class Commodity : UserControl
     {
         private Color color;

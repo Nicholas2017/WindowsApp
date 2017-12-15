@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApp", "WindowsFormsA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHelper", "HttpHelper\HttpHelper.csproj", "{7D83F967-EEA9-4613-8611-FB3832C4F851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefineData", "DefineData\DefineData.csproj", "{6C9A7178-90F4-4F81-8054-25A4A89C091D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolsFunctions", "ToolsFunctions\ToolsFunctions.csproj", "{826C9FDC-AB67-4A36-92C9-C3C4E418C064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7D83F967-EEA9-4613-8611-FB3832C4F851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D83F967-EEA9-4613-8611-FB3832C4F851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D83F967-EEA9-4613-8611-FB3832C4F851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9A7178-90F4-4F81-8054-25A4A89C091D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9A7178-90F4-4F81-8054-25A4A89C091D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9A7178-90F4-4F81-8054-25A4A89C091D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9A7178-90F4-4F81-8054-25A4A89C091D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826C9FDC-AB67-4A36-92C9-C3C4E418C064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826C9FDC-AB67-4A36-92C9-C3C4E418C064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826C9FDC-AB67-4A36-92C9-C3C4E418C064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826C9FDC-AB67-4A36-92C9-C3C4E418C064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

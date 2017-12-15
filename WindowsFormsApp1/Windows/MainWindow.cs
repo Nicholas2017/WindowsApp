@@ -1,13 +1,15 @@
-﻿using System;
+﻿using DefineData;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
+using ToolsFunctions;
 
 namespace WindowsApp
 {
     public partial class MainWindow : Form
     {
         #region 全局变量定义区
-        Point mouseOff;                                     //鼠标移动位置变量
+        Point mouseOff;                                     //鼠标移动位置变量 
         bool leftFlag;                                      //标记是否为左键
 
         Commodity commodity;                                //商品控件
