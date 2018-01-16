@@ -151,6 +151,7 @@
             this.CaptionBackColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.CaptionBackColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1200, 760);
+            this.CloseBoxSize = new System.Drawing.Size(26, 20);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.linkLabel2);
@@ -164,7 +165,6 @@
             this.Name = "MainWindown2";
             this.ShowDrawIcon = false;
             this.ShowIcon = false;
-            this.ShowInTaskbar = false;
             this.Text = "MainWindown2";
             this.TitleSuitColor = true;
             this.Load += new System.EventHandler(this.MainWindown2_Load);

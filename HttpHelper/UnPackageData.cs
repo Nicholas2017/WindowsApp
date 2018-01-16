@@ -39,7 +39,23 @@ namespace HttpHelper
                     foreach (string oneCommodity in allCommodity)
                     {
                         DataRow row = dt.NewRow();
-                        row["Contract"] = oneCommodity.Split(',')[0];
+                        string[] queteCommodity = oneCommodity.Split(',');
+
+                        //把解析出来的行情信息绑定到dataGridview，此处必须严格按照约定一一对应；
+                        row["Contract"] = queteCommodity[0];//合约
+                        row["NewPrice"] = queteCommodity[9];//最新价
+                        row["SellPrice"] = queteCommodity[1];//卖价
+                        row["SellCount"] = queteCommodity[2];//卖量
+                        row["BuyPrice"] = queteCommodity[3];//买价
+                        row["BuyCount"] = queteCommodity[4];//买量
+                        row["TodayOpenPrice"] = queteCommodity[6];//今开盘
+                        row["TopPrice"] = queteCommodity[7];//最高价
+                        row["YestedaySettlement"] = queteCommodity[16];//昨结算
+                        row["Volume"] = queteCommodity[13];//总手数
+                        row["Positions"] = queteCommodity[14];//总手数
+                        row["UpStopPrice"] = queteCommodity[17];//涨停价
+                        row["DownStopPrice"] = queteCommodity[18];//跌停价
+
                         dt.Rows.Add(row);
                     }
                 }

@@ -1,0 +1,8 @@
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\bin\Debug\ToolsFunctions.dll
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\bin\Debug\ToolsFunctions.pdb
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\bin\Debug\DefineData.dll
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\bin\Debug\DefineData.pdb
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\obj\Debug\ToolsFunctions.csprojResolveAssemblyReference.cache
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\obj\Debug\ToolsFunctions.csproj.CoreCompileInputs.cache
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\obj\Debug\ToolsFunctions.dll
+E:\Windows App\WindowsFormsApp1\ToolsFunctions\obj\Debug\ToolsFunctions.pdb

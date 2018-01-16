@@ -1,0 +1,5 @@
+E:\Windows App\WindowsFormsApp1\DefineData\bin\Debug\DefineData.dll
+E:\Windows App\WindowsFormsApp1\DefineData\bin\Debug\DefineData.pdb
+E:\Windows App\WindowsFormsApp1\DefineData\obj\Debug\DefineData.csproj.CoreCompileInputs.cache
+E:\Windows App\WindowsFormsApp1\DefineData\obj\Debug\DefineData.dll
+E:\Windows App\WindowsFormsApp1\DefineData\obj\Debug\DefineData.pdb

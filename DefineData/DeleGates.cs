@@ -1,5 +1,6 @@
-﻿namespace DefineData
+﻿using System.Data;
+
+namespace DefineData
 {
     public delegate void CommodityChgDelegate();
-    public delegate void BindingsData();
 }

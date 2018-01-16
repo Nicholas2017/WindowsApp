@@ -61,7 +61,7 @@
             this.panel_M.Controls.Add(this.pictureBox_Min);
             this.panel_M.Controls.Add(this.pictureBox_Logo);
             this.panel_M.Location = new System.Drawing.Point(0, 0);
-            this.panel_M.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_M.Margin = new System.Windows.Forms.Padding(2);
             this.panel_M.Name = "panel_M";
             this.panel_M.Size = new System.Drawing.Size(900, 49);
             this.panel_M.TabIndex = 0;
@@ -76,7 +76,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(854, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(45, 47);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -122,7 +122,7 @@
             this.pictureBox_Min.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox_Min.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Min.Image")));
             this.pictureBox_Min.Location = new System.Drawing.Point(808, 0);
-            this.pictureBox_Min.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox_Min.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox_Min.Name = "pictureBox_Min";
             this.pictureBox_Min.Size = new System.Drawing.Size(45, 47);
             this.pictureBox_Min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -137,7 +137,7 @@
             this.pictureBox_Logo.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox_Logo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Logo.Image")));
             this.pictureBox_Logo.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox_Logo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox_Logo.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox_Logo.Name = "pictureBox_Logo";
             this.pictureBox_Logo.Size = new System.Drawing.Size(142, 49);
             this.pictureBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -154,7 +154,7 @@
             this.panel_B.Controls.Add(this.linkLabel2);
             this.panel_B.Controls.Add(this.linkLabel1);
             this.panel_B.Location = new System.Drawing.Point(0, 569);
-            this.panel_B.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_B.Margin = new System.Windows.Forms.Padding(2);
             this.panel_B.Name = "panel_B";
             this.panel_B.Size = new System.Drawing.Size(900, 49);
             this.panel_B.TabIndex = 1;
@@ -211,7 +211,7 @@
             this.splitContainer1.BackColor = System.Drawing.Color.Transparent;
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Location = new System.Drawing.Point(0, 49);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -239,7 +239,7 @@
             this.Controls.Add(this.panel_B);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainWindow";
             this.Text = "MainWindow";
             this.Load += new System.EventHandler(this.MainWindow_Load);
@@ -247,6 +247,7 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            this.Resize += new System.EventHandler(this.MainWindow_Resize);
             this.panel_M.ResumeLayout(false);
             this.panel_M.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

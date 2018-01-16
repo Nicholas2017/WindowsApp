@@ -1,0 +1,10 @@
+E:\Windows App\WindowsFormsApp1\HttpHelper\bin\Debug\HttpHelper.dll
+E:\Windows App\WindowsFormsApp1\HttpHelper\bin\Debug\HttpHelper.pdb
+E:\Windows App\WindowsFormsApp1\HttpHelper\bin\Debug\DefineData.dll
+E:\Windows App\WindowsFormsApp1\HttpHelper\bin\Debug\JumpKick.HttpLib.dll
+E:\Windows App\WindowsFormsApp1\HttpHelper\bin\Debug\DefineData.pdb
+E:\Windows App\WindowsFormsApp1\HttpHelper\bin\Debug\JumpKick.HttpLib.pdb
+E:\Windows App\WindowsFormsApp1\HttpHelper\obj\Debug\HttpHelper.csprojResolveAssemblyReference.cache
+E:\Windows App\WindowsFormsApp1\HttpHelper\obj\Debug\HttpHelper.csproj.CoreCompileInputs.cache
+E:\Windows App\WindowsFormsApp1\HttpHelper\obj\Debug\HttpHelper.dll
+E:\Windows App\WindowsFormsApp1\HttpHelper\obj\Debug\HttpHelper.pdb

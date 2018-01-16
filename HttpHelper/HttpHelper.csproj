@@ -45,5 +45,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DefineData\DefineData.csproj">
+      <Project>{6c9a7178-90f4-4f81-8054-25a4a89c091d}</Project>
+      <Name>DefineData</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,10 +16,19 @@ namespace ToolsFunctions
                 //最大化
                 case Operatetype.max:
                     {
-                        if (Frm_Tem.WindowState == FormWindowState.Maximized)
-                            Frm_Tem.WindowState = FormWindowState.Normal;
+                        //if (Frm_Tem.WindowState == FormWindowState.Maximized)
+                        //    Frm_Tem.WindowState = FormWindowState.Normal;
+                        //else
+                        //    Frm_Tem.WindowState = FormWindowState.Maximized;
+                        if (Frm_Tem.Width != Screen.PrimaryScreen.WorkingArea.Width && Frm_Tem.Height != Screen.PrimaryScreen.WorkingArea.Height)
+                        {
+                            Frm_Tem.Width = Screen.PrimaryScreen.WorkingArea.Width;
+                            Frm_Tem.Height = Screen.PrimaryScreen.WorkingArea.Height;
+                        }
                         else
-                            Frm_Tem.WindowState = FormWindowState.Maximized;
+                        {
+                            Frm_Tem.WindowState = FormWindowState.Normal;
+                        }
                         break;
                     }
                 //关闭

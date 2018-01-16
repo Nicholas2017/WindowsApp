@@ -1,0 +1,6 @@
+E:\Windows App\WindowsFormsApp1\DefineData\bin\Release\DefineData.dll
+E:\Windows App\WindowsFormsApp1\DefineData\bin\Release\DefineData.pdb
+E:\Windows App\WindowsFormsApp1\DefineData\obj\Release\DefineData.csprojResolveAssemblyReference.cache
+E:\Windows App\WindowsFormsApp1\DefineData\obj\Release\DefineData.csproj.CoreCompileInputs.cache
+E:\Windows App\WindowsFormsApp1\DefineData\obj\Release\DefineData.dll
+E:\Windows App\WindowsFormsApp1\DefineData\obj\Release\DefineData.pdb
